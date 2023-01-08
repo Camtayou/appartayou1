@@ -1,0 +1,64 @@
+<style type="text/css">
+  .background-position-pourcent{ background-position : 25% 50%; }
+  .background-position-pixel{ background-position : 20px 15px; }
+  .background-position-center-center{ background-position : center center; }
+  .background-position-center-bottom{ background-position : center bottom; }
+  
+  .background-position-pixel-1{ background-position : 0px 0px; }
+  .background-position-pixel-2{ background-position : 2px 2px; }
+  .background-position-pixel-3{ background-position : 3px 3px; }
+  .background-position-pixel-4{ background-position : 4px 4px; }
+  
+  .background-position-pixel-5{ background-position : bottom 2px right 1px; }
+  
+  .background-position-pixel-6{
+   background-image : url(/img/exemple/background-image-silouhette.png), url(/img/exemple/background-image-fenetre.png), url(/img/exemple/background-image-ciel.gif) ; 
+   background-repeat : repeat-x, no-repeat, repeat ; 
+   background-position :  -20% 30%, 30px -20px, left top; 
+  }
+  
+  .background-position-pixel-7{
+   background-image : url(/img/exemple/background-image-silouhette.png), url(/img/exemple/background-image-fenetre.png), url(/img/exemple/background-image-ciel.gif) ; 
+   background-repeat : repeat-x, no-repeat, repeat ; 
+   background-position :  -20% 30% , 30px -20px, left 10px top 10px ; 
+  }
+  
+  .exemple,.exemple-background-position{
+   background-color : green; 
+   background-image : url(/img/style_css/carre10x10.gif); 
+   width : 300px; height : 50px; margin-bottom : 10px; padding : 10px; border : 1px solid #666; 
+  }
+  
+  .no-repeat { background-repeat : no-repeat; }
+  .exemple{ background:none }
+  .exemple-multi{
+   width : 197px; 
+   height : 250px; 
+   background-color : #000; 
+  }
+  </style>
+  
+  <div class="exemple">Image de fond utilisée :<br><img src="/img/style_css/carre10x10.gif" alt=""></div>
+  <span>Exemple background-position : 25% 50%; <br>background-repeat : no-repeat; </span>
+  <div class="exemple-background-position background-position-pourcent no-repeat"></div>
+  <span>Exemple background-position :20px 15px; <br>background-repeat : no-repeat; </span>
+  <div class="exemple-background-position background-position-pixel no-repeat"></div>
+  <span>Exemple background-position : center center; <br>background-repeat : no-repeat; </span>
+  <div class="exemple-background-position background-position-center-center no-repeat"></div>
+  <span>Exemple background-position : center bottom; <br>background-repeat : no-repeat; </span>
+  <div class="exemple-background-position background-position-center-bottom no-repeat"></div>
+  
+  <span>Exemple background-position : 0 0</span>
+  <div class="exemple-background-position background-position-pixel-1"></div>
+  <span>Exemple background-position : 2px 2px</span>
+  <div class="exemple-background-position background-position-pixel-2"></div>
+  <span>Exemple background-position : 3px 3px</span>
+  <div class="exemple-background-position background-position-pixel-3"></div>
+  <span>Exemple background-position : 4px 4px</span>
+  <div class="exemple-background-position background-position-pixel-4"></div>
+  <span>Exemple background-position : bottom 2px right 1px; </span>
+  <div class="exemple-background-position background-position-pixel-5"></div>
+  <span>Avec plusieurs images d'arrière-plan : </span>
+  <div class="exemple-multi background-position-pixel-6"></div>
+  <span>Avec plusieurs images d'arrière-plan, quatre valeurs : </span>
+  <div class="exemple-multi background-position-pixel-7"></div>

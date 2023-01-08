@@ -1,0 +1,86 @@
+.tarifs {
+  height: 150px;
+  opacity: inherit;
+  margin-top: 20px;
+
+   }
+
+.titre-tar1 {
+  background-color: rgb(231, 230, 230);
+  border: 1px solid gray;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: rgb(35, 35, 35);
+}
+
+.tableau {
+  margin-top: 20px;
+}
+
+td {
+  text-align: center;
+  width: 100px;
+  border: 1px solid gray;
+}
+
+.saisons {
+  background-color: yellow;
+}
+
+
+.disponibilités {
+  height: 150px;
+  background-color: none;
+  opacity: 0.9;
+  text-align: center;
+  height: 430px;
+}
+
+.titre-cal {
+  background-color: rgb(231, 230, 230);
+  border: 1px solid gray;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: rgb(35, 35, 35);
+  margin-top: 20px;
+ }
+
+
+   
+ .contact {
+  margin-top: 20px;
+  text-align: center;
+  opacity: inherit;
+  padding-bottom: 60px;
+
+ }
+
+ .button-contact {
+  display: inline-block;
+  background-color: green;
+  transition: 0.2;
+  margin-top: 20px ;
+ }
+
+ .button-contact a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+ }
+
+ .button-contact:hover {
+  opacity: 0.75;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+a .button-contact:active {
+  box-shadow: none;
+  opacity: 0.5;
+  margin-left: 5px;
+  margin-top: 10px;
+  transition: 0.1s;
+
+ }

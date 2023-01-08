@@ -1,0 +1,17 @@
+.carrousel div img {
+  width: 600px;
+  display: inline-block;
+}
+
+.carrousel-container {
+
+ 
+
+}
+
+.carrousel div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
